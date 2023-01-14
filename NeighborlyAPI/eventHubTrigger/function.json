@@ -1,0 +1,13 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "eventGridTrigger",
+      "name": "event",
+      "direction": "in",
+	  "eventHubName": "project2event", 
+	  "connection": "Endpoint=sb://project2event.westus-1.eventgrid.azure.net/api/events/;SharedAccessKeyName=allpolicy;SharedAccessKey=LsxEeOYFcMkCEmpBqp32SinwBD6MSb21yHwQ9WffWU8w="
+    }
+  ]
+}
+
